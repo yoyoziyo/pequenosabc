@@ -1,4 +1,4 @@
-# EduPequenos
+# PequenosABC
 
 Loja estática de materiais pedagógicos digitais, preparada para funcionar diretamente no GitHub Pages.
 
@@ -18,4 +18,4 @@ Duplique um item dentro de `data/products.json`, escolha um `slug` único e pree
 
 Capas e prévias públicas podem ser colocadas em `assets/products/<slug>/`. PDFs pagos não devem ser enviados para este repositório público; futuramente ficarão em armazenamento privado e serão liberados após o pagamento.
 
-© 2026 EduPequenos.
+© 2026 PequenosABC.

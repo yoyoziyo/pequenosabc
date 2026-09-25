@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "pequenos-leitores",
+    "name": "Pequenos Leitores",
+    "description": "Histórias, interpretação, alfabetização e formação do hábito de leitura.",
+    "status": "planned"
+  },
+  {
+    "slug": "pequenos-matematicos",
+    "name": "Pequenos Matemáticos",
+    "description": "Números, lógica, resolução de problemas e matemática no cotidiano.",
+    "status": "planned"
+  },
+  {
+    "slug": "pequenos-cientistas",
+    "name": "Pequenos Cientistas",
+    "description": "Natureza, experiências, descobertas e pensamento investigativo.",
+    "status": "planned"
+  },
+  {
+    "slug": "pequenos-misterios",
+    "name": "Pequenos Mistérios",
+    "description": "Narrativas investigativas, pistas, desafios e raciocínio lógico.",
+    "status": "planned"
+  }
+]

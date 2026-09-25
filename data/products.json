@@ -1,7 +1,105 @@
 [
-  {"slug":"dia-mundial-da-agua","name":"Dia Mundial da Água","short":"Atividades para aprender sobre o uso consciente da água.","description":"Uma sequência pronta para trabalhar preservação, ciclo da água e atitudes responsáveis de forma leve e significativa.","price":7.90,"oldPrice":10.90,"pages":18,"badge":"Mais procurado","color":"#bdebf7","keywords":["água","meio ambiente","ciências","preservação"],"contents":["Texto informativo ilustrado","Atividades de interpretação","Experiência simples","Cartaz para a sala"]},
-  {"slug":"respeito-as-diferencas","name":"Respeito às Diferenças","short":"Leitura e atividades sobre empatia, inclusão e convivência.","description":"Material acolhedor para abrir conversas sobre respeito, diversidade e amizade com crianças dos anos iniciais.","price":4.90,"pages":12,"color":"#ffd9e3","keywords":["respeito","diferenças","inclusão","empatia"],"contents":["História curta","Roda de conversa","Atividade de escrita","Página para colorir"]},
-  {"slug":"povos-indigenas-do-brasil","name":"Povos Indígenas do Brasil","short":"Cultura, diversidade e saberes dos povos originários.","description":"Uma abordagem respeitosa e adequada à faixa etária para conhecer a diversidade dos povos indígenas brasileiros.","price":7.90,"pages":20,"badge":"Novo","color":"#ffe1a8","keywords":["indígenas","brasil","cultura","diversidade"],"contents":["Texto de apoio","Mapa e vocabulário","Atividades de pesquisa","Proposta artística"]},
-  {"slug":"dia-da-arvore","name":"Dia da Árvore","short":"Leitura e atividades sobre a importância das árvores.","description":"Um material prático para explorar as partes da árvore e pequenas ações de cuidado com a natureza.","price":4.90,"pages":10,"color":"#ccefdc","keywords":["árvore","natureza","meio ambiente","plantas"],"contents":["Leitura guiada","Partes da árvore","Registro de observação","Atividade para colorir"]},
-  {"slug":"semana-da-patria","name":"Semana da Pátria","short":"Símbolos nacionais, cidadania e atividades interdisciplinares.","description":"Conteúdo apropriado aos anos iniciais para trabalhar símbolos nacionais, cidadania e pertencimento.","price":7.90,"pages":16,"color":"#d7e9ff","keywords":["brasil","pátria","independência","cidadania"],"contents":["Texto introdutório","Símbolos do Brasil","Atividades de escrita","Mural coletivo"]}
+  {
+    "slug": "dia-mundial-da-agua",
+    "name": "Dia Mundial da Água",
+    "short": "Atividades para aprender sobre o uso consciente da água.",
+    "description": "Uma sequência pronta para trabalhar preservação, ciclo da água e atitudes responsáveis de forma leve e significativa.",
+    "price": 7.9,
+    "oldPrice": 10.9,
+    "badge": "Mais procurado",
+    "color": "#bdebf7",
+    "keywords": [
+      "água",
+      "meio ambiente",
+      "ciências",
+      "preservação"
+    ],
+    "contents": [
+      "Texto informativo ilustrado",
+      "Atividades de interpretação",
+      "Experiência simples",
+      "Cartaz para a sala"
+    ]
+  },
+  {
+    "slug": "respeito-as-diferencas",
+    "name": "Respeito às Diferenças",
+    "short": "Leitura e atividades sobre empatia, inclusão e convivência.",
+    "description": "Material acolhedor para abrir conversas sobre respeito, diversidade e amizade com crianças dos anos iniciais.",
+    "price": 4.9,
+    "color": "#ffd9e3",
+    "keywords": [
+      "respeito",
+      "diferenças",
+      "inclusão",
+      "empatia"
+    ],
+    "contents": [
+      "História curta",
+      "Roda de conversa",
+      "Atividade de escrita",
+      "Página para colorir"
+    ]
+  },
+  {
+    "slug": "povos-indigenas-do-brasil",
+    "name": "Povos Indígenas do Brasil",
+    "short": "Cultura, diversidade e saberes dos povos originários.",
+    "description": "Uma abordagem respeitosa e adequada à faixa etária para conhecer a diversidade dos povos indígenas brasileiros.",
+    "price": 7.9,
+    "badge": "Novo",
+    "color": "#ffe1a8",
+    "keywords": [
+      "indígenas",
+      "brasil",
+      "cultura",
+      "diversidade"
+    ],
+    "contents": [
+      "Texto de apoio",
+      "Mapa e vocabulário",
+      "Atividades de pesquisa",
+      "Proposta artística"
+    ]
+  },
+  {
+    "slug": "dia-da-arvore",
+    "name": "Dia da Árvore",
+    "short": "Leitura e atividades sobre a importância das árvores.",
+    "description": "Um material prático para explorar as partes da árvore e pequenas ações de cuidado com a natureza.",
+    "price": 4.9,
+    "color": "#ccefdc",
+    "keywords": [
+      "árvore",
+      "natureza",
+      "meio ambiente",
+      "plantas"
+    ],
+    "contents": [
+      "Leitura guiada",
+      "Partes da árvore",
+      "Registro de observação",
+      "Atividade para colorir"
+    ]
+  },
+  {
+    "slug": "semana-da-patria",
+    "name": "Semana da Pátria",
+    "short": "Símbolos nacionais, cidadania e atividades interdisciplinares.",
+    "description": "Conteúdo apropriado aos anos iniciais para trabalhar símbolos nacionais, cidadania e pertencimento.",
+    "price": 7.9,
+    "color": "#d7e9ff",
+    "keywords": [
+      "brasil",
+      "pátria",
+      "independência",
+      "cidadania"
+    ],
+    "contents": [
+      "Texto introdutório",
+      "Símbolos do Brasil",
+      "Atividades de escrita",
+      "Mural coletivo"
+    ]
+  }
 ]

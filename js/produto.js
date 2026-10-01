@@ -8,7 +8,7 @@ fetch("data/products.json", { cache: "no-store" }).then(response => { if (!respo
   if (!found) throw new Error();
   const product = prepare(found);
   const visual = product.cover
-    ? `<img class="detail-cover-image" src="${product.cover}" alt="Capa do material ${product.name}">`
+    ? `<img class="detail-cover-image" src="${product.cover}" alt="Capa do material ${product.name}" fetchpriority="high" decoding="async">`
     : `<span class="cover-art">${icon("book")}</span><span>Material pedagógico digital</span><h1>${product.name}</h1><small>Arquivo em PDF</small>`;
   const contents = product.contents.length
     ? `<ul>${product.contents.map(item => `<li>${icon("check")} ${item}</li>`).join("")}</ul>`

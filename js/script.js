@@ -16,7 +16,7 @@ const prepare = product => ({
 });
 
 function cover(product) {
-  if (product.cover) return `<img class="cover-image" src="${product.cover}" alt="Capa do material ${product.name}" loading="lazy">`;
+  if (product.cover) return `<img class="cover-image" src="${product.cover}" alt="Capa do material ${product.name}" loading="lazy" decoding="async">`;
   return `<span class="cover-art">${icon("book")}</span><strong>${product.name}</strong><span class="cover-type">Material digital</span>`;
 }
 

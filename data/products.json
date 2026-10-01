@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "slug": "o-clube-da-meia-noite",
+    "name": "O Clube da Meia-Noite",
+    "short": "Livro infantil digital ilustrado da PequenosABC.",
+    "description": "Uma história infantil ilustrada para proporcionar um momento especial de leitura, imaginação e descoberta.",
+    "price": 4.9,
+    "cover": "assets/products/clube-da-meia-noite.webp",
+    "badge": "Novo",
+    "keywords": [
+      "história infantil",
+      "livro infantil",
+      "leitura",
+      "meia-noite"
+    ]
+  }
+]

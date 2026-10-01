@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#fffaf2">
   <meta name="description" content="Materiais pedagógicos digitais prontos para transformar suas aulas com criatividade e significado.">
   <meta property="og:title" content="PequenosABC | Materiais pedagógicos">
   <meta property="og:description" content="Recursos digitais feitos com carinho para educadores e pequenos aprendizes.">
@@ -11,7 +11,7 @@
   <title>PequenosABC | Materiais pedagógicos</title>
   <link rel="icon" href="assets/pequenosabc-logo.webp">
   <link rel="preload" href="assets/hero-pequenosabc.webp" as="image" type="image/webp">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
   <script src="js/cart.js" defer></script>
   <script src="js/script.js" defer></script>
 </head>
@@ -25,14 +25,14 @@
     </div>
   </header>
   <main>
-    <section class="hero shell reveal"><div class="hero-copy"><span>Materiais que encantam e ensinam</span><h1>Pequenos materiais,<br><em>grandes aprendizagens!</em></h1><p>Livros e recursos pedagógicos prontos para tornar suas aulas mais criativas, inclusivas e significativas.</p><a class="primary" href="#materiais">Ver materiais <svg aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></a></div><img src="assets/hero-pequenosabc.webp" alt="Crianças lendo e aprendendo juntas" width="900" height="585"></section>
+    <section class="hero shell reveal"><div class="hero-details" aria-hidden="true"><span>A</span><span>123</span><span>B</span></div><div class="hero-copy"><span>Materiais que encantam e ensinam</span><h1>Pequenos materiais,<br><em>grandes aprendizagens!</em></h1><p>Recursos pedagógicos prontos para educadores que querem transformar cada aula em uma experiência especial.</p><div class="hero-actions"><a class="primary" href="#materiais">Explorar materiais <svg aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></a><small><svg aria-hidden="true"><use href="assets/icons.svg#check"/></svg> PDF pronto para usar</small></div></div><img src="assets/hero-pequenosabc.webp" alt="Crianças lendo e aprendendo juntas" width="900" height="585"></section>
     <section class="trust shell reveal" aria-label="Vantagens"><article><svg aria-hidden="true"><use href="assets/icons.svg#delivery"/></svg><div><b>Entrega digital</b><small>Receba após a confirmação</small></div></article><article><svg aria-hidden="true"><use href="assets/icons.svg#shield"/></svg><div><b>Compra segura</b><small>Seus dados protegidos</small></div></article><article><svg aria-hidden="true"><use href="assets/icons.svg#file"/></svg><div><b>Pronto para usar</b><small>Material em PDF</small></div></article><article><svg aria-hidden="true"><use href="assets/icons.svg#leaf"/></svg><div><b>Feito para educadores</b><small>Conteúdo claro e cuidadoso</small></div></article></section>
     <section class="catalog shell reveal" id="materiais">
-      <div class="section-head"><div><span>Descubra algo novo</span><h2>Materiais para suas aulas</h2></div><p id="result-count" aria-live="polite"></p></div>
+      <div class="section-head"><div><span>Descubra algo novo</span><h2>Materiais para suas aulas</h2></div><p id="result-count" aria-live="polite"></p></div><p class="swipe-hint">Arraste para ver mais <svg aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></p>
       <div class="products products-loading" id="product-list" aria-busy="true"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
       <div class="empty" id="empty" hidden><svg aria-hidden="true"><use href="assets/icons.svg#search"/></svg><h3>Nenhum material encontrado</h3><p>Tente pesquisar usando outro tema.</p><button class="text-button" id="clear-search" type="button">Limpar pesquisa</button></div>
     </section>
-    <section class="how-it-works shell reveal" aria-labelledby="como-funciona"><div class="section-head"><div><span>Simples do começo ao fim</span><h2 id="como-funciona">Como funciona</h2></div></div><div class="steps"><article><strong>1</strong><div><h3>Escolha</h3><p>Encontre o material ideal para sua aula.</p></div></article><article><strong>2</strong><div><h3>Compre</h3><p>Finalize sem precisar criar uma conta.</p></div></article><article><strong>3</strong><div><h3>Receba</h3><p>O acesso chega ao seu e-mail após a confirmação.</p></div></article></div></section>
+    <section class="how-it-works shell reveal" aria-labelledby="como-funciona"><div class="section-head"><div><span>Simples do começo ao fim</span><h2 id="como-funciona">Como funciona</h2></div></div><div class="steps"><article><span class="step-icon"><svg aria-hidden="true"><use href="assets/icons.svg#search"/></svg></span><strong>01</strong><div><h3>Escolha</h3><p>Encontre o material perfeito para sua aula.</p></div></article><article><span class="step-icon"><svg aria-hidden="true"><use href="assets/icons.svg#cart"/></svg></span><strong>02</strong><div><h3>Compre</h3><p>Finalize em poucos passos e sem criar uma conta.</p></div></article><article><span class="step-icon"><svg aria-hidden="true"><use href="assets/icons.svg#download"/></svg></span><strong>03</strong><div><h3>Receba</h3><p>O acesso chega ao seu e-mail após a confirmação.</p></div></article></div></section>
     <section class="newsletter shell reveal"><div><span>Novidades PequenosABC</span><h2>Ideias fresquinhas para sua próxima aula</h2><p>Receba lançamentos, materiais gratuitos e inspirações pedagógicas.</p></div><form id="newsletter-form"><label class="sr-only" for="email">Seu e-mail</label><input id="email" type="email" placeholder="Seu melhor e-mail" required><button>Quero receber</button></form></section>
   </main>
   <footer><div class="shell footer"><div class="footer-brand"><img src="assets/pequenosabc-logo.webp" alt="PequenosABC" width="135" height="135"><p>Pequenas ideias mudam grandes futuros.</p></div><div><b>Institucional</b><a href="pages/sobre.html">Sobre nós</a><a href="pages/contato.html">Fale conosco</a></div><div><b>Ajuda</b><a href="pages/como-comprar.html">Como comprar</a><a href="pages/entrega.html">Entrega digital</a></div><div><b>Informações</b><a href="pages/privacidade.html">Política de privacidade</a><a href="pages/termos.html">Termos de uso</a></div></div><div class="shell copyright">© 2026 PequenosABC. Todos os direitos reservados.</div></footer>

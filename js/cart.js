@@ -50,7 +50,7 @@
     if (event.target.closest("[data-cart-close]")) closeCart();
   });
   document.addEventListener("keydown", event => { if (event.key === "Escape") closeCart(); });
-  fetch(`${root}/data/products.json`).then(response => response.json()).then(data => { products = data; render(); }).catch(updateCounts);
+  fetch(`${root}/data/products.json`, { cache: "no-store" }).then(response => response.json()).then(data => { products = data; items = items.filter(slug => products.some(product => product.slug === slug)); save(); render(); }).catch(updateCounts);
   updateCounts();
   window.PequesCart = { add, open: openCart };
 })();

@@ -15,9 +15,34 @@ Loja estática de materiais pedagógicos digitais, preparada para funcionar dire
 
 ## Adicionar um produto
 
-Duplique um item dentro de `data/products.json`, escolha um `slug` único e preencha seus dados. A home, a busca, o carrinho e a página individual passarão a usar o novo produto automaticamente.
+Cada produto é um item dentro de `data/products.json`. Para cadastrar um material, coloque a capa em `assets/products/` no formato WebP e adicione:
 
-Capas e prévias públicas podem ser colocadas em `assets/products/<slug>/`. PDFs pagos não devem ser enviados para este repositório público; futuramente ficarão em armazenamento privado e serão liberados após o pagamento.
+```json
+[
+  {
+    "slug": "nome-do-material",
+    "name": "Nome do material",
+    "description": "Descrição clara do conteúdo e de como ele ajuda o educador.",
+    "price": 7.9,
+    "cover": "assets/products/nome-do-material.webp"
+  }
+]
+```
+
+Esses cinco campos são suficientes. A home, a busca, o carrinho e a página individual serão criados automaticamente.
+
+Campos opcionais:
+
+- `short`: texto menor para o card; se não existir, usa a descrição.
+- `oldPrice`: preço anterior para mostrar uma oferta.
+- `badge`: selo como “Novo”.
+- `color`: cor usada caso ainda não exista uma capa.
+- `keywords`: termos adicionais encontrados pela busca.
+- `contents`: lista do que acompanha o material.
+
+Para cadastrar mais de um produto, separe os objetos por vírgula dentro dos colchetes do JSON.
+
+Capas e prévias públicas ficam em `assets/products/`. PDFs pagos não devem ser enviados para este repositório público; futuramente ficarão em armazenamento privado e serão liberados após o pagamento.
 
 ## Evolução planejada
 

@@ -42,6 +42,8 @@ Campos opcionais:
 
 Para cadastrar mais de um produto, separe os objetos por vírgula dentro dos colchetes do JSON.
 
+Depois de alterar o catálogo, execute `node scripts/generate-product-pages.js`. O gerador cria uma página estática para cada produto com título, descrição, preço e capa próprios para compartilhamento no WhatsApp e nas redes sociais.
+
 Capas e prévias públicas ficam em `assets/products/`. PDFs pagos não devem ser enviados para este repositório público. A entrega é feita diretamente ao cliente após a confirmação do pagamento.
 
 ## Pedidos pelo WhatsApp

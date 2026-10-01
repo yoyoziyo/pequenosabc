@@ -27,7 +27,7 @@
     if (!selected.length) {
       container.innerHTML = `<div class="cart-empty">${icon("cart")}<h3>Seu carrinho está vazio</h3><p>Escolha um material para continuar.</p><button type="button" data-cart-close>Ver materiais</button></div>`;
     } else {
-      container.innerHTML = selected.map(product => `<article class="cart-item"><a href="${root}/produto.html?produto=${product.slug}" style="--cover:${product.color || "#dff3ff"}">${product.cover ? `<img src="${root}/${product.cover}" alt="">` : icon("book")}</a><div><a href="${root}/produto.html?produto=${product.slug}"><strong>${product.name}</strong></a><span>Material digital em PDF</span><b>${money(product.price)}</b></div><button type="button" data-remove-cart="${product.slug}" aria-label="Remover ${product.name}">${icon("trash")}</button></article>`).join("");
+      container.innerHTML = selected.map(product => `<article class="cart-item"><a href="${root}/produtos/${product.slug}/" style="--cover:${product.color || "#dff3ff"}">${product.cover ? `<img src="${root}/${product.cover}" alt="">` : icon("book")}</a><div><a href="${root}/produtos/${product.slug}/"><strong>${product.name}</strong></a><span>Material digital em PDF</span><b>${money(product.price)}</b></div><button type="button" data-remove-cart="${product.slug}" aria-label="Remover ${product.name}">${icon("trash")}</button></article>`).join("");
     }
     document.querySelector("[data-cart-total]").textContent = money(selected.reduce((sum, product) => sum + product.price, 0));
     document.querySelector("[data-whatsapp-checkout]").disabled = !selected.length || !store.whatsapp;

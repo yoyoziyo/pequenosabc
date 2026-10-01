@@ -21,7 +21,8 @@ function cover(product) {
 }
 
 function card(product) {
-  return `<article class="product-card"><a class="product-cover${product.cover ? " has-image" : ""}" href="produto.html?produto=${product.slug}" style="--cover:${product.color}">${product.badge ? `<span class="badge">${product.badge}</span>` : ""}${cover(product)}</a><div class="product-info"><a href="produto.html?produto=${product.slug}"><h3>${product.name}</h3></a><p>${product.short}</p><div><strong>${money(product.price)}</strong><button class="add" type="button" data-add-cart="${product.slug}" aria-label="Adicionar ${product.name} ao carrinho">${icon("cart")}</button></div></div></article>`;
+  const url = `produtos/${product.slug}/`;
+  return `<article class="product-card"><a class="product-cover${product.cover ? " has-image" : ""}" href="${url}" style="--cover:${product.color}">${product.badge ? `<span class="badge">${product.badge}</span>` : ""}${cover(product)}</a><div class="product-info"><a href="${url}"><h3>${product.name}</h3></a><p>${product.short}</p><div><strong>${money(product.price)}</strong><button class="add" type="button" data-add-cart="${product.slug}" aria-label="Adicionar ${product.name} ao carrinho">${icon("cart")}</button></div></div></article>`;
 }
 
 function showEmpty(searching) {

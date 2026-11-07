@@ -47,10 +47,10 @@ for (const product of products) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../css/style.css?v=20261001-6">
+  <link rel="stylesheet" href="../../css/style.css?v=20261107-1">
   <script type="application/ld+json">${structuredData}</script>
-  <script src="../../js/cart.js?v=20261001-6" defer></script>
-  <script src="../../js/produto.js?v=20261001-6" defer></script>
+  <script src="../../js/cart.js?v=20261107-1" defer></script>
+  <script src="../../js/produto.js?v=20261107-1" defer></script>
 </head>
 <body data-root="../.." data-product="${escape(product.slug)}">
   <a class="skip-link" href="#product">Ir para o material</a>

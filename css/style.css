@@ -50,3 +50,10 @@ img{max-width:100%}.product-cover.has-image{background:transparent}.cover-image{
 @media(hover:none){.product-card:hover{transform:none}.product-card:hover .cover-image{transform:none}.primary:hover,.buy:hover,.checkout-button:hover:not(:disabled){transform:none}}
 @media(max-width:600px){.products{gap:11px}.product-card{min-width:180px;width:180px}.product-info{padding:13px}.product-info h3{font-size:15px}.product-info p{min-height:44px;font-size:12px}.product-info>div>strong{font-size:17px}.add{width:35px;height:35px}.product-detail{gap:24px}.detail-cover-image{border-radius:18px}.product-content{margin-top:38px}.product-content article,.product-content aside{padding:22px}.detail-copy>h1{margin-top:6px}.price{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){.cover-image{transition:none}}
+
+/* Ícones ilustrados PequenosABC */
+.trust article>img{flex:0 0 auto;width:54px;height:54px;object-fit:contain;filter:drop-shadow(0 7px 10px rgba(23,63,111,.10))}.step-icon{width:68px;height:68px;background:transparent!important;border-radius:0}.step-icon img{display:block;width:68px;height:68px;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(23,63,111,.10))}.steps article{align-items:center}.steps article>div{align-self:center}.trust article,.steps article{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}.trust article:hover{transform:translateY(-3px);border-color:rgba(62,145,207,.18);box-shadow:0 13px 30px rgba(23,63,111,.08)}.steps article:hover{transform:translateY(-4px);border-color:rgba(62,145,207,.16);box-shadow:0 16px 36px rgba(23,63,111,.09)}#materiais,#como-funciona{scroll-margin-top:100px}
+@media(max-width:900px){#materiais,#como-funciona{scroll-margin-top:155px}}
+@media(max-width:600px){.trust article>img{width:43px;height:43px}.trust article{min-height:76px}.step-icon,.step-icon img{width:56px;height:56px}.steps article{padding:18px}.steps h3{font-size:18px}}
+@media(hover:none){.trust article:hover,.steps article:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.trust article,.steps article{transition:none}}
